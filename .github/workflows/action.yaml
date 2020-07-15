@@ -1,5 +1,4 @@
 name: Test Workflow ZackBBraunstein Org
-
 on:
   push:
     branches: [master]
@@ -14,6 +13,6 @@ jobs:
         with:
           fetch-depth: "0"
       - name: Bump version and push tag
-        uses: ZackBraunstein/.github@v0.0.7
+        uses: ZackBraunstein/.github@v0.0.8
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
