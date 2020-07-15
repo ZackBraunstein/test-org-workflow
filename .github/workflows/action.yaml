@@ -13,6 +13,6 @@ jobs:
         with:
           fetch-depth: "0"
       - name: Bump version and push tag
-        uses: ZackBraunstein/.github@v0.2.1
+        uses: ZackBraunstein/.github@v0.2.2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
